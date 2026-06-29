@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+body{
+    background: #faf8f5;
+    color: #333;
+    font-family:"游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+/* header */
+header{
+    background: #206434;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0px;
+}
+header p{
+    font-style: italic;
+    margin: 30px auto;
+}
+nav ul{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    gap: 40px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 100px 10px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #818181;
+}
+
+/* section共通 */
+section{
+    padding: 60px 0;
+    width: 60%;
+    margin: auto;
+}
+h2{
+    color: #206434;
+    font-weight: bold;
+    border-bottom: 1px solid #206434;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+section img{
+    border-radius: 5%;
+}
+
+
+/* about us */
+#AboutUs p{
+    margin-bottom: 40px;
+}
+
+/* menu */
+#Menu ul{
+    list-style: none;
+    display: flex;
+    gap: 10%;
+}
+#Menu ul li{
+    background-color: #fff;
+    width: 20%;
+    padding: 100px 10px;
+}
+#Menu ul li:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* contact */
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+#Contact input{
+    margin-bottom: 50px;
+    height: 24px;
+}
+form #subbtn{
+    background-color: #206434;
+    color: #fff;
+    margin-top: 50px;
+    border: none;
+    height: 50px;
+    line-height: 50px;
+}
+#subbtn:hover{
+    background-color: #13391e;
+}
+
+/* footer */
+footer{
+    background-color: #2a2b2a;
+    color: #fff;
+    padding: 20px 0;
+}
