@@ -29,7 +29,7 @@ nav ul{
 nav ul li{
     list-style: none;
     display: inline-block;
-    padding: 100px 10px;
+    padding: 50px 10px;
 }
 nav ul li a{
     color: #fff;
@@ -73,6 +73,10 @@ section img{
     background-color: #fff;
     width: 20%;
     padding: 100px 10px;
+}
+#Menu ul li img{
+    width: 95%;
+    height: auto;
 }
 #Menu ul li:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
